@@ -1,0 +1,94 @@
+.LIP-container{
+    width:100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #1791CE, #007CE8);
+}
+
+.LIP-container-content{
+    width:1400px;
+    max-width: 1400px;
+    height: auto;
+    margin: auto;
+    padding: 80px 120px;
+    display: flex;
+    justify-content: center;
+}
+
+/*---------- .LIP-container-content .LogIn -----------*/
+.LIP-container-content #Form-LogIn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    padding: 40px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.LIP-container-content #Form-LogIn img{
+    width: 135px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.LIP-container-content #Form-LogIn p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #757575;
+    margin: 20px 0 30px;
+}
+
+.LIP-container-content #Form-LogIn .error-feedback{
+    color: red;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.LIP-container-content #Form-LogIn .Form-Group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #CDD0D1;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.LIP-container-content #Form-LogIn .Form-Group .LogInName,
+.LIP-container-content #Form-LogIn .Form-Group .LogInPassword{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #757575;
+    border: none;
+    outline: none;
+}
+
+.LIP-container-content #Form-LogIn .Form-Group .Icon-LogIn{
+    color: #757575;
+    margin-right: 10px;
+}
+
+.LIP-container-content #Form-LogIn input.Form-Submit{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #0194F3;
+    padding: 10px 40px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.LIP-container-content #Form-LogIn a.Button-To-Register{
+    font-size: 14px;
+    font-weight: bold;
+    color: #757575;
+    margin-top: 10px;
+}
+
+.LIP-container-content #Form-LogIn a.Button-To-Register span{
+    color: #0194F3;
+}

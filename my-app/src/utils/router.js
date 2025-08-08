@@ -1,0 +1,35 @@
+export const ROUTERS = {
+    USER: {
+        HomePage: "/",
+        SearchTicketPage: "/Search-Ticket",
+        DeclareInformationPage: "/Declare-Information",
+        VoucherPage: "/Voucher",
+        PaymentMethodPage: "/Payment-Method",
+        ContactPage: "/Contact",
+        AirlineInformationPage: "/Airline-Information",
+        ProfilePage: "/Profile",
+        LogInPage: "/LogIn",
+        RegisterPage: "/Register",
+        NotifyPage: "/Notify",
+        HistoryPage: "/History",
+    },
+
+    ADMIN: {
+        VoucherTable: "/VoucherTable",
+        HangHangKhongTable: "/HangHangKhongTable",
+        KhachHangTable: "/KhachHangTable",
+        HanhKhachTable: "/HanhKhachTable",
+        TaiKhoanKHTable: "/TaiKhoanKHTable",
+        TaiKhoanNVTable: "/TaiKhoanNVTable",
+        NhanVienTable: "/NhanVienTable",
+        PhongBanTable: "/PhongBanTable",
+        DSDoiLichBayTable: "/DSDoiLichBayTable",
+        DSHoanVeTable: "/DSHoanVeTable",
+        VeTable: "/VeTable",
+        ChiTietChuyenBayTable: "/ChiTietChuyenBayTable",
+        ChuyenBayTable: "/ChuyenBayTable",
+        MayBayTable: "/MayBayTable",
+        ThanhToanTable: "/ThanhToanTable",
+        VeDienTuTable: "/VeDienTuTable",
+    }
+};

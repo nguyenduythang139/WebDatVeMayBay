@@ -1,0 +1,121 @@
+.AIP-container{
+    width:100%;
+    background-color: #F7F9FA;
+    margin-top: 92px;
+}
+
+.AIP-container-content{
+    width:1400px;
+    max-width: 1400px;
+    height: auto;
+    margin: auto;
+    padding: 30px 120px;
+}
+
+/*---------- .AIP-container-content .row-1 ----------*/
+.AIP-container-content > .row-1{
+    display: flex;
+    border-bottom: 1px solid #CDD0D1;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.AIP-container-content > .row-1 > .left{
+    width: 40%;
+    padding-right: 140px;
+}
+
+.AIP-container-content > .row-1 > .left p:first-child{
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.AIP-container-content > .row-1 > .left p:nth-child(2){
+    margin: 60px 0 20px;
+    color: #687176;
+}
+
+.AIP-container-content > .row-1 > .left p:nth-child(3){
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.AIP-container-content > .row-1 > .right{
+    width: 60%;
+}
+
+.AIP-container-content > .row-1 > .right img{
+    width: 82px;
+    object-fit: contain;
+    margin: 0 20px 20px 0;
+}
+
+/*---------- .AIP-container-content .row-2 ----------*/
+.AIP-container-content > .row-2 .airlines{
+    display: flex;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #CDD0D1;
+    border-radius: 6px;
+}
+
+.AIP-container-content > .row-2 .airlines:hover{
+    border: 1px solid #0194F3;
+}
+
+.AIP-container-content > .row-2 .airlines .left{
+    padding: 20px 30px 20px 20px;
+}
+
+.AIP-container-content > .row-2 .airlines .left img{
+    width: 82px;
+    object-fit: contain;
+}
+
+.AIP-container-content > .row-2 .airlines .right{
+    padding: 20px 0;
+}
+
+.AIP-container-content > .row-2 .airlines .right p:first-child{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.AIP-container-content > .row-2 .airlines .right p:nth-child(2),
+.AIP-container-content > .row-2 .airlines .right p:nth-child(3),
+.AIP-container-content > .row-2 .airlines .right p:nth-child(4){
+    color:#687176;
+    margin-bottom: 6px;
+}
+
+.AIP-container-content > .row-2 .airlines .right p:nth-child(5){
+    color: #FA9E36;
+    position: relative;
+}
+
+.AIP-container-content > .row-2 .airlines .right p:nth-child(5) i{
+    position: absolute;
+    top: 1px;
+    margin-left: 3px;
+}
+
+.AIP-container-content > .row-2 .airlines .right p:nth-child(2) span,
+.AIP-container-content > .row-2 .airlines .right p:nth-child(3) span,
+.AIP-container-content > .row-2 .airlines .right p:nth-child(4) span,
+.AIP-container-content > .row-2 .airlines .right p:nth-child(5) span{
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.AIP-container-content > .row-2 .airlines .right p:nth-child(5) span{
+    color:#687176;
+}
+
+.AIP-container-content > .row-2 .airlines .right a{
+    display: block;
+    font-size: 16px;
+    color: #0194F3;
+    margin-top: 20px;
+}

@@ -1,0 +1,64 @@
+.HeaderAdmin-container{
+    width: 100%;
+    height: auto;
+    background-color: wheat;
+}
+
+.HeaderAdmin-container-content{
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    padding: 0 30px;
+}
+
+.HeaderAdmin-container-content-left{
+    display: flex;
+    align-items: center;
+}
+
+.HeaderAdmin-container-content-right > ul > li{
+    position: relative;
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.HeaderAdmin-container-content-right > ul > li:hover{
+    color: #8B4513;
+}
+
+.HeaderAdmin-container-content-right > ul > li > .Dropdown{
+    position: absolute;
+    top: 100%;
+    left: 12%;
+    width: 700px;
+    padding: 10px 20px;
+    background-color: #F5DEB3;
+    border-radius: 6px;
+    margin-top: 2px;
+    display: none;
+}
+
+.HeaderAdmin-container-content-right > ul > li:hover > .Dropdown{
+    display: block;
+}
+
+.HeaderAdmin-container-content-right > ul > li > .Dropdown ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.HeaderAdmin-container-content-right > ul > li > .Dropdown ul li{
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.HeaderAdmin-container-content-right > ul > li > .Dropdown ul li a{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.HeaderAdmin-container-content-right > ul > li:hover > .Dropdown ul li a:hover{
+    color: #8B4513;
+}

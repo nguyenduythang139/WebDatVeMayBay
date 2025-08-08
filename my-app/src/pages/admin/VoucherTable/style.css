@@ -1,0 +1,148 @@
+.VT-container{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.VT-container-content{
+    width: 1400px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.VT-container-content-2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+}
+
+.VT-container-content > h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Add-New{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.Add-New p{
+    font-weight: bold;
+}
+
+.Add-New button{
+    background-color: #1A8357;
+    border-radius: 5px;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+table, th, td{
+    border: 1px solid #DCDCDC;
+    border-collapse: collapse;
+    color: #6E6E70;
+}
+
+th{
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+th, td{
+    padding: 10px 20px;
+    align-items: center;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #F2F2F2;
+}
+
+table tbody tr td button:first-child{
+    padding: 8px 10px;
+    background-color: #FFBE0C;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;    
+}
+
+table tbody tr td button:nth-child(2){
+    padding: 8px 10px;
+    background-color: #DB3547;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; 
+    padding: 40px;
+    background-color: #ffffff;
+    border: 1px solid #DCDCDC;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.form-container h3 {
+    margin-top: 0;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input[type="text"], 
+.form-container input[type="date"] {
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border: 1px solid #DCDCDC;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-container input[type="text"]::placeholder{
+    color: black;
+}
+
+.form-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.form-container button[type="button"].save {
+    background-color: #1A8357;
+}
+
+.form-container button[type="button"].cancel {
+    background-color: #DB3547;
+}

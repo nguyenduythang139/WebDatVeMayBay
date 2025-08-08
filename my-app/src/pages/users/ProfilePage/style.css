@@ -1,0 +1,319 @@
+.PP-container{
+    width:100%;
+    background-color: #F7F9FA;
+    margin-top: 92px;
+}
+
+.PP-container-content{
+    width:1400px;
+    max-width: 1400px;
+    height: auto;
+    margin: auto;
+    padding: 30px 120px;
+    display: flex;
+}
+
+/*----------- .PP-container-content-left ----------*/
+.pp-container-content-left{
+    flex: 3;
+    height: max-content;
+    background-color: white;
+    border: 1px solid #CDD0D1;
+    border-radius: 7px;
+    margin-right: 25px;
+}
+
+/*----------- .PP-container-content-left .row-1 ----------*/
+.pp-container-content-left > .row-1{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #CDD0D1;
+}
+
+.pp-container-content-left > .row-1 > .left{
+    width: 30%;
+}
+
+.pp-container-content-left > .row-1 > .left .Profile-Icon{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F9FA;
+    border-radius: 100%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pp-container-content-left > .row-1 > .left .Profile-Icon .ProfileIcon{
+    font-size: 56px;
+    color: #0194F3;
+}
+
+.pp-container-content-left > .row-1 > .right{
+    width: 70%;
+}
+
+.pp-container-content-left > .row-1 > .right p:first-child{
+    font-weight: bold;
+}
+
+.pp-container-content-left > .row-1 > .right p:nth-child(2){
+    font-size: 14px;
+    font-weight: bold;
+    color: #0194F3;
+    margin-top: 5px;
+}
+
+/*----------- .PP-container-content-left .row-2 ----------*/
+.pp-container-content-left > .row-2{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.pp-container-content-left > .row-2 .LSDC{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #CDD0D1;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.pp-container-content-left > .row-2 .LSDC a{
+    font-size: 16px;
+}
+
+.pp-container-content-left > .row-2 .LSDC:hover{
+    background-color: #F7F9FA;
+}
+
+.pp-container-content-left > .row-2 .LSDC img{
+    margin-right: 10px;
+}
+
+/*----------- .PP-container-content-left .row-3 ----------*/
+.pp-container-content-left > .row-3{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.pp-container-content-left > .row-3 .TKCN{
+    background-color: #0194F3;
+    color: white;
+}
+
+.pp-container-content-left > .row-3 .TKCN,
+.pp-container-content-left > .row-3 .Sign-Out{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pp-container-content-left > .row-3 .Sign-Out:hover{
+    background-color: #F7F9FA;
+}
+
+.pp-container-content-left > .row-3 .TKCN img,
+.pp-container-content-left > .row-3 .Sign-Out img{
+    margin-right: 10px;
+}
+
+/*----------- .PP-container-content-right ----------*/
+.pp-container-content-right{
+    flex: 7;
+    background-color: white;
+    border: 1px solid #CDD0D1;
+    border-radius: 7px;
+}
+
+/*----------- .PP-container-content-right .row-1 ----------*/
+.pp-container-content-right > .row-1{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #CDD0D1;
+    display: flex;
+}
+
+.pp-container-content-right > .row-1 .Edit-Icon{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #0194F3;
+    cursor: pointer;
+}
+
+/*----------- .PP-container-content-right .row-2 ----------*/
+.pp-container-content-right > .row-2{
+    padding: 20px;
+}
+
+.pp-container-content-right > .row-2 > .row-1 > p,
+.pp-container-content-right > .row-2 > .row-2 > .left > p,
+.pp-container-content-right > .row-2 > .row-2 > .right > p,
+.pp-container-content-right > .row-2 > .row-3 > p,
+.pp-container-content-right > .row-2 > .row-4 > p,
+.pp-container-content-right > .row-2 > .row-5 > p{
+    color: #687176;
+    margin-bottom: 6px;
+}
+
+/*----------- .PP-container-content-right .row-2 .row-1 ----------*/
+.pp-container-content-right > .row-2 > .row-1 .Booker-Full-Name{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CDD0D1;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.pp-container-content-right > .row-2 > .row-1 .Booker-Full-Name input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #757575;
+    border: none;
+    outline: none;
+}
+
+/*----------- .PP-container-content-right .row-2 .row-2 ----------*/
+.pp-container-content-right > .row-2 > .row-2{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.pp-container-content-right > .row-2 > .row-2 .left{
+    width: 38%;
+    margin-right: 20px;
+    position: relative;
+}
+
+.pp-container-content-right > .row-2 > .row-2 .left .Booker-Character .top{
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid #CDD0D1;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #757575;
+    cursor: pointer;
+}
+
+.pp-container-content-right > .row-2 > .row-2 .left .Booker-Character .bottom{
+    width: 100%;
+    background-color: #F7F9FA;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+
+.pp-container-content-right > .row-2 > .row-2 .left .Booker-Character .bottom.open{
+    display: block;
+}
+
+.pp-container-content-right > .row-2 > .row-2 .left .Booker-Character .bottom .BookerCharacter{
+    padding: 10px 20px;
+    display: flex;
+}
+
+.pp-container-content-right > .row-2 > .row-2 .left .Booker-Character .bottom .BookerCharacter input{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pp-container-content-right > .row-2 > .row-2 .left .Booker-Character .bottom .BookerCharacter label{
+    flex: 1;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pp-container-content-right > .row-2 > .row-2 .left .Booker-Character .bottom .BookerCharacter input:checked ~ label{
+    color: #0194F3;
+}
+
+.pp-container-content-right > .row-2 > .row-2 .right{
+    width: 60%;
+}
+
+.pp-container-content-right > .row-2 > .row-2 .right .Booker-Date{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CDD0D1;
+    border-radius: 6px;
+}
+
+.pp-container-content-right > .row-2 > .row-2 .right .Booker-Date input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #757575;
+    border: none;
+    outline: none;
+}
+
+/*----------- .PP-container-content-right .row-2 .row-3 ----------*/
+.pp-container-content-right > .row-2 > .row-3 .Booker-Address{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CDD0D1;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.pp-container-content-right > .row-2 > .row-3 .Booker-Address input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #757575;
+    border: none;
+    outline: none;
+}
+
+/*----------- .PP-container-content-right .row-2 .row-4 + row-5 ----------*/
+.pp-container-content-right > .row-2 > .row-4 .Booker-Phone-Number,
+.pp-container-content-right > .row-2 > .row-5 .Booker-Email{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CDD0D1;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.pp-container-content-right > .row-2 > .row-4 .Booker-Phone-Number input,
+.pp-container-content-right > .row-2 > .row-5 .Booker-Email input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #757575;
+    border: none;
+    outline: none;
+}
+
+/*----------- .PP-container-content-right .row-2 .row-6 ----------*/
+.pp-container-content-right > .row-2 > .row-6{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.pp-container-content-right > .row-2 > .row-6 p{
+    width: max-content;
+    padding: 10px 40px;
+    background-color: #0194F3;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
